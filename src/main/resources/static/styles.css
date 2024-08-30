@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+/* ベーススタイル */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #ffcb05;
+}
+
+.search-container {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-container input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 60%;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffcb05;
+    border: none;
+    border-radius: 4px;
+    color: #333;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #f7c02e;
+}
+
+.result-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    color: #3b8c9f;
+}
+
+p {
+    font-size: 18px;
+}
+
+.not-found {
+    font-size: 20px;
+    color: #d9534f;
+}
